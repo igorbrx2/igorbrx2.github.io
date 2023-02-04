@@ -43,7 +43,7 @@
 
 @media (max-width: 800px) {
     .introducao {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 40px;
 
     }
@@ -57,10 +57,13 @@
         left: 0px;
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 473px) {
         .introducao img {
-            display: none;
-            
-        }
+            max-width: 100%;
+            }
+        
+            .introducao h1 {
+                font-size: 3rem;
+            }
     }
 }

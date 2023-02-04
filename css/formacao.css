@@ -26,9 +26,9 @@
 }
 
 .formacao .subtitulo {
-    color: #000;
-    max-width: 4ch;
-    font-size: 10rem;
+    color: #e0e0e0;
+    max-width: 5ch;
+    font-size: 8rem;
 }
 
 .formacao-texto {
@@ -175,5 +175,29 @@ position: relative;
     .formacao-extra h3::before {
         position: initial;
         margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 473px) {
+    .idiomas h3::before {
+        position: initial;
+        margin-bottom: 10px;
+    }
+
+    .formacao .subtitulo {
+        color: #696969;
+        max-width: 5ch;
+        font-size: 8rem;
+    }
+
+    .formacao-container::after {
+        content: '';
+        display: block;
+        width: 130px;
+        height: 100px;
+        background: url(../img/detalhe.svg) no-repeat center;
+        position: absolute;
+        bottom: -50px;
+        left: 20px;
     }
 }

@@ -36,3 +36,13 @@
     color: #8f8f8f;
     grid-column: 1 / -1;
 }
+
+@media (max-width: 473px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-texto {
+        font-size: 2rem;
+    }
+}

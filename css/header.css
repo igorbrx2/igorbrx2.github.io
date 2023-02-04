@@ -40,3 +40,16 @@ color: #141414;
         border-radius: 5px;
     }
 }
+
+@media (max-width: 473px) {
+    .header-menu {
+        gap: 30px;
+    }
+
+    .header-logo {
+        display: block;
+        max-width: 410px;
+    
+    }
+
+}
